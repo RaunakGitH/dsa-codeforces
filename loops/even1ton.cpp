@@ -5,8 +5,8 @@ signed main(){
 	int n;
 	cin>>n;
 	for(int i=1;i<=n;i++){
-		cout<<i<<endl;
+		if(i%2 == 0){
+			cout<<i<<" ";
+		}
 	}
 }
-
-

@@ -2,11 +2,9 @@
 using namespace std;
 #define int long long
 signed main(){
-	int n;
-	cin>>n;
-	for(int i=1;i<=n;i++){
-		cout<<i<<endl;
+	int l , r;
+	cin >> l >> r;
+	for(int i=l;i<=r;i++){
+		cout<<i<<" ";
 	}
 }
-
-
